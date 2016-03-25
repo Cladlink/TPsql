@@ -1,4 +1,4 @@
-SELECT AUTEUR.nomAuteur
+  SELECT AUTEUR.nomAuteur
 FROM AUTEUR
 WHERE AUTEUR.nomAuteur LIKE "p%";
 
