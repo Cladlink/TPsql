@@ -17,19 +17,18 @@
 				<nav class="top-bar menu " data-topbar data-options="sticky_on: medium">
 				  <ul class="title-area">
 				    <li class="name">
-				      <h1><a href="index.php">Azerti</a></h1>
+				      <h1><a href="index.php">Bibliothèque</a></h1>
 				    </li>
 				    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
 				  </ul>
 				  <div class="top-bar-section">
 				    <ul class="center">
-			            <li class="active"><a href="PresentationAzerti.php">Emprunt</a></li>
-						<li class="active"><a href="Eco.php">Oeuvre</a></li>
-			            <li class="active"><a href="Interview.php">Interview</a></li>
-						<li class="active"><a href="Echecs.php">Echecs</a></li>
-						<li class="active"><a href="Contact.php">Contact</a></li>
-						<li class="active"><a href="Remerciement.php">Remerciements</a></li>
-			        </ul>
+			            <li class="active"><a href="emprunt.php">Emprunt</a></li>
+						<li class="active"><a href="oeuvre.php">Oeuvre</a></li>
+			            <li class="active"><a href="auteur.php">Auteur</a></li>
+						<li class="active"><a href="exemplaire.php">Exemplaire</a></li>
+						<li class="active"><a href="adherent.php">Adhérent</a></li>
+					</ul>
 				  </div>
 				</nav>
 			</div>
