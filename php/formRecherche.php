@@ -7,7 +7,7 @@
  */
                 define("username","cladlink");
                 define("password","Tr1f0rc31987..");
-                $dsn = 'mysql:dbname=tpsql;host=193.253.204.231:12269;charset=utf8';
+                $dsn = "mysql:host=193.253.204.231;port=12269;dbname=TPSQL;charset=utf8";
 
                 try
                 {
