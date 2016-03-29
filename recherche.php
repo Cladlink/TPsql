@@ -10,9 +10,7 @@
                     <div class="large-4 medium-4 small-4 columns"><input type="text" placeholder="Titre du livre" id="titreOeuvre" name="titreOeuvre"></div>
                     <div class="large-4 medium-4 small-4 columns"><input type="date" placeholder="Date de parution" id="dateParution" name="dateParution"></div>
                 </div>
-                <button class="arrondi" type="submit">
-                    Envoyer
-                </button>
+                <button class="arrondi" type="submit">Envoyer</button>
             </form>
         </article>
     </div>
