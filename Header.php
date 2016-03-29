@@ -23,11 +23,10 @@
                     </ul>
 				  <div class="top-bar-section">
                       <ul class="center">
-                          <li class="active"><a href="emprunt.php">Emprunt</a></li>
-                          <li class="active"><a href="oeuvre.php">Oeuvre</a></li>
-                          <li class="active"><a href="auteur.php">Auteur</a></li>
-                          <li class="active"><a href="exemplaire.php">Exemplaire</a></li>
-                          <li class="active"><a href="adherent.php">Adhérent</a></li>
+                          <li class="active"><a href="recherche.php">Recherche</a></li>
+                          <li class="active"><a href="livre.php">Gestion livre</a></li>
+                          <li class="active"><a href="emprunt.php">Gestion emprunt</a></li>
+                          <li class="active"><a href="adherent.php">Gestion adhérent</a></li>
 					</ul>
 				  </div>
 				</nav>

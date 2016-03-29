@@ -7,20 +7,6 @@
             <img src="img/bibli.jpg" alt="image de bibliothèque" />
         </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
     <article class="panel large-8 large-centered medium-8 medium-centered small-12 columns">
         <h2>Avant-propos</h2>
