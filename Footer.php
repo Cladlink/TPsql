@@ -1,4 +1,4 @@
-<a href="#" class="scroll"><img src="images/Scroll-to-top-button.png" alt="Fleche vers le haut" /></a>
+<a href="#" class="scroll"><img src="img/Scroll-to-top-button.png" alt="Fleche vers le haut" /></a>
 <footer>
 	<div>
 		<div>Site Web créé par : Michael BOUTBOUL	-   Marie-Lucile CANIARD<br/><br/></div>
@@ -8,11 +8,12 @@
 	<script src="js/vendor/jquery.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$('body').append('<a href="#top" class="top_link" title="Revenir en haut de page">Haut</a>');
+			$('body').append('<a href="#top" class="top_link" title="Revenir en haut de page"></a>');
 		});
 	</script>
 	<script>
-		$(document).ready(function(){
+		$(document).ready(function()
+		{
 			
 			//Check to see if the window is top if not then display button
 			$(window).scroll(function(){
