@@ -8,7 +8,7 @@
                 define("username","cladlink");
                 define("password","Tr1f0rc31987..");
                 $dsn = "mysql:host=193.253.204.231;port=12269;dbname=TPSQL;charset=utf8";
-
+bite
                 try
                 {
                     $ma_connexion_mysql = new PDO($dsn, username, password);
