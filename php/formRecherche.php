@@ -5,10 +5,12 @@
  * Date: 29/03/16
  * Time: 09:44
  */
+// todo : remettre les deux boucles if + voir la requete comme un texte à trou ou ton formulaire
+// todo : que la page recherche.php va combler. Essaie et si t'arrive pas je te montre vendredi (ou avant) ;)
+
                 define("username","cladlink");
                 define("password","Tr1f0rc31987..");
                 $dsn = "mysql:host=193.253.204.231;port=12269;dbname=TPSQL;charset=utf8";
-bite
                 try
                 {
                     $ma_connexion_mysql = new PDO($dsn, username, password);
