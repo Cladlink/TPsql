@@ -22,16 +22,20 @@
 					<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
 				</ul>
                 <section class="top-bar-section">
-                    <ul class="center">
+                    <ul class="left">
                         <li class="active"><a href="recherche.php">Recherche</a></li>
-                        <li class="active">Gestion livre</a>
-                            <ul>
-                                <li class="dropdown"><a href="ajouterLivre.php">Ajouter un livre</a></li>
-                                <li class=""></li>
+                        <li class="active has-dropdown">Gestion livre
+                            <ul class="dropdown">
+                                <li><a href="ajouterLivre.php">Ajouter un livre</a></li>
+                                <li><a href="supprimerLivre.php">Supprimer un livre</a></li>
                             </ul>
                         </li>
-                        <li class="active"><a href="emprunt.php">Gestion emprunt</a></li>
-                        <li class="active"><a href="adherent.php">Gestion adhérent</a></li>
+                        <li class="active has-dropdown">Gestion emprunt
+                            <ul class="dropdown">
+                                <li><a href="ajouterLivre.php">Ajouter un livre</a></li>
+                                <li><a href="supprimerLivre.php">Supprimer un livre</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </section>
 				<div class="top-bar-section">
