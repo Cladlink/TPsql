@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="http://www.iut-bm.univ-fcomte.fr/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exemple MVC php</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+
+    <script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+
+
+
+<nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+        <li class="name">
+            <h1> <a href="">TP web</a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon">
+            <a href="#"><span>Menu</span></a>
+        </li>
+    </ul>
+    <section class="top-bar-section">
+        <ul class="left">
+            <li class="divider"></li>
+
+            <li class="has-dropdown"><a href="#">produits</a>
+                <ul class="dropdown">
+                    <li><a href="Produit_show.php"> afficher/editer/supprimer des produits </a></li>
+                    <li><a href="Produit_add.php">ajouter un Produit</a></li>
+                </ul>
+            </li>
+            <li class="has-dropdown"><a href="#">types Produits</a>
+                <ul class="dropdown">
+                    <li><a href="TypeProduit_show.php"> afficher/editer/supprimer des types produits </a></li>
+                    <li><a href="TypeProduit_add.php">ajouter un type de produit</a></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+</nav>
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
+</body>
+</html>
